@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <p>adslsfdj</p>
-  <h1>alsdf</h1>
-</body>
-</html>
+QUESTION:
+// Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc).
+
+ANS:
+const createCounter = function(n) {
+   return function() {
+       return n++;
+   };
+  }
+createCounter();
