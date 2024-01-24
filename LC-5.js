@@ -17,6 +17,6 @@ let map = function(arr, fn) {
 
 
 ANS:
-let map = function(arr, fn) {
+let map1 = function(arr, fn) {
   return arr.map(fn);
 };
