@@ -12,9 +12,9 @@ var once = function(fn){
     if(called){
       return undefined;
     };
-    else{
+    
       called = true;
       return fn.apply(this, args);
-    };
+  
   };
 };
