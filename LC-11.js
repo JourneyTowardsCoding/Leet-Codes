@@ -24,6 +24,3 @@ ANS:
     }
   }
 
-git add .
-git commit -m"lc-10"
-git push
