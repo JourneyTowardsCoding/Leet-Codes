@@ -11,10 +11,10 @@ var once = function(fn){
   return function(...args){
     if(called){
       return undefined;
-    }
+    };
     else{
       called = true;
       return fn.apply(this, args);
-    }
-  }
-}
+    };
+  };
+};
